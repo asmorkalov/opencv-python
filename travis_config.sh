@@ -114,7 +114,7 @@ function pre_build {
 
     echo 'Installing FFmpeg'
 
-    brew update
+    #brew update
     generate_ffmpeg_formula
     brew_add_local_bottles
     brew install --build-bottle ffmpeg
